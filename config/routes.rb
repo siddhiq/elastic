@@ -1,11 +1,18 @@
 Rails.application.routes.draw do
-  resources :users
+  resources :users do
+    collection do      
+      get :autocomplete
+    end
+  end
 
-  resources :programs
+  resources :programs do
+    collection do      
+      get :autocomplete
+    end
+  end
 
   resources :projects do
-    collection do
-      post :import
+    collection do      
       get :autocomplete
     end
   end

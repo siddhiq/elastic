@@ -20,8 +20,10 @@
 
 /* ================ */
 .tt-dropdown-menu {
+	display: box;
   width: 100%;
-  min-width: 160px;
+  overflow-y: auto;
+  min-width: 500px;
   margin-top: 2px;
   padding: 5px 0;
   background-color: #fff;
@@ -39,6 +41,9 @@
 .tt-suggestion {
   display: block;
   padding: 3px 20px;
+}
+.tt-dropdown-menu a{
+  text-decoration:none;
 }
 .tt-suggestion.tt-is-under-cursor {
   color: #fff;
@@ -65,4 +70,10 @@
   .btn {
     vertical-align: top;
   }
+}
+.head-name {
+  font-weight: bold;
+  margin: 0 20px 5px 20px;
+  padding: 3px 0;
+  border-bottom: 1px solid #ccc;
 }

@@ -495,3 +495,12 @@ java.io.StreamCorruptedException: invalid internal transport message format, got
 [2015-04-07 20:08:24,927][INFO ][cluster.metadata         ] [Jessica Drew] [users_development_20150407200824895] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
 [2015-04-07 20:08:26,919][INFO ][cluster.metadata         ] [Jessica Drew] [users_development_20150407200824895] update_mapping [user] (dynamic)
 [2015-04-07 20:08:27,011][INFO ][cluster.metadata         ] [Jessica Drew] [users_development_20150407200718779] deleting index
+[2015-04-07 22:31:06,588][INFO ][cluster.metadata         ] [Jessica Drew] [programs_development_20150407223106523] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 22:31:07,633][INFO ][cluster.metadata         ] [Jessica Drew] [programs_development_20150407223106523] update_mapping [program] (dynamic)
+[2015-04-07 22:31:08,855][INFO ][cluster.metadata         ] [Jessica Drew] [programs_development_20150407200819637] deleting index
+[2015-04-07 22:31:16,404][INFO ][cluster.metadata         ] [Jessica Drew] [users_development_20150407223116383] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 22:31:17,648][INFO ][cluster.metadata         ] [Jessica Drew] [users_development_20150407223116383] update_mapping [user] (dynamic)
+[2015-04-07 22:31:18,436][INFO ][cluster.metadata         ] [Jessica Drew] [users_development_20150407200824895] deleting index
+[2015-04-07 22:31:26,897][INFO ][cluster.metadata         ] [Jessica Drew] [projects_development_20150407223126869] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 22:31:28,762][INFO ][cluster.metadata         ] [Jessica Drew] [projects_development_20150407223126869] update_mapping [project] (dynamic)
+[2015-04-07 22:31:28,884][INFO ][cluster.metadata         ] [Jessica Drew] [projects_development_20150407200814581] deleting index

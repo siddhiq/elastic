@@ -62,7 +62,9 @@ class ProgramsController < ApplicationController
   end
 
   def autocomplete
-    render json: Program.search(params[:query], fields: [{name: :text_start}], limit: 10).map(&:name)
+    render json: Program.search(params[:query], autocomplete: false, limit: 10).map do |program|
+      { name: program.name, path: '/programs/' + program.id}
+    end    
   end
 
   private
