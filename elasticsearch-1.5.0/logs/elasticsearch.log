@@ -1,0 +1,67 @@
+[2015-04-07 15:47:57,720][INFO ][node                     ] [Anti-Cap] version[1.5.0], pid[28344], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-07 15:47:57,721][INFO ][node                     ] [Anti-Cap] initializing ...
+[2015-04-07 15:47:57,726][INFO ][plugins                  ] [Anti-Cap] loaded [], sites []
+[2015-04-07 15:48:09,082][INFO ][node                     ] [Anti-Cap] initialized
+[2015-04-07 15:48:09,083][INFO ][node                     ] [Anti-Cap] starting ...
+[2015-04-07 15:48:09,329][INFO ][transport                ] [Anti-Cap] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.24.105.57:9300]}
+[2015-04-07 15:48:09,528][INFO ][discovery                ] [Anti-Cap] elasticsearch/lsCA639OTH6T1TaoCoXDgA
+[2015-04-07 15:48:13,354][INFO ][cluster.service          ] [Anti-Cap] new_master [Anti-Cap][lsCA639OTH6T1TaoCoXDgA][needle][inet[/172.24.105.57:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-07 15:48:13,455][INFO ][http                     ] [Anti-Cap] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.24.105.57:9200]}
+[2015-04-07 15:48:13,455][INFO ][node                     ] [Anti-Cap] started
+[2015-04-07 15:48:13,663][INFO ][gateway                  ] [Anti-Cap] recovered [0] indices into cluster_state
+[2015-04-07 15:48:49,774][INFO ][node                     ] [Nebulo] version[1.5.0], pid[28528], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-07 15:48:49,798][INFO ][node                     ] [Nebulo] initializing ...
+[2015-04-07 15:48:49,819][INFO ][plugins                  ] [Nebulo] loaded [], sites []
+[2015-04-07 15:49:39,438][INFO ][node                     ] [Nebulo] initialized
+[2015-04-07 15:49:39,530][INFO ][node                     ] [Nebulo] starting ...
+[2015-04-07 15:49:50,502][INFO ][transport                ] [Nebulo] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/172.24.105.57:9301]}
+[2015-04-07 15:49:53,545][INFO ][discovery                ] [Nebulo] elasticsearch/Wstp7upqT6aKZh_5_kSaOA
+[2015-04-07 15:50:00,088][INFO ][cluster.service          ] [Anti-Cap] added {[Nebulo][Wstp7upqT6aKZh_5_kSaOA][needle][inet[/172.24.105.57:9301]],}, reason: zen-disco-receive(join from node[[Nebulo][Wstp7upqT6aKZh_5_kSaOA][needle][inet[/172.24.105.57:9301]]])
+[2015-04-07 15:50:01,779][INFO ][cluster.service          ] [Nebulo] detected_master [Anti-Cap][lsCA639OTH6T1TaoCoXDgA][needle][inet[/172.24.105.57:9300]], added {[Anti-Cap][lsCA639OTH6T1TaoCoXDgA][needle][inet[/172.24.105.57:9300]],}, reason: zen-disco-receive(from master [[Anti-Cap][lsCA639OTH6T1TaoCoXDgA][needle][inet[/172.24.105.57:9300]]])
+[2015-04-07 15:50:06,867][INFO ][http                     ] [Nebulo] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/172.24.105.57:9201]}
+[2015-04-07 15:50:06,867][INFO ][node                     ] [Nebulo] started
+[2015-04-07 15:52:40,339][INFO ][cluster.metadata         ] [Anti-Cap] [projects_development_20150407155238033] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 15:52:49,889][INFO ][cluster.metadata         ] [Anti-Cap] [projects_development_20150407155238033] update_mapping [project] (dynamic)
+[2015-04-07 15:52:59,542][INFO ][cluster.metadata         ] [Anti-Cap] [programs_development_20150407155259443] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 15:53:05,909][INFO ][cluster.metadata         ] [Anti-Cap] [programs_development_20150407155259443] update_mapping [program] (dynamic)
+[2015-04-07 15:53:17,205][INFO ][cluster.metadata         ] [Anti-Cap] [users_development_20150407155317123] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 15:53:18,970][INFO ][cluster.metadata         ] [Anti-Cap] [users_development_20150407155317123] update_mapping [user] (dynamic)
+[2015-04-07 15:58:00,719][INFO ][node                     ] [Nebulo] stopping ...
+[2015-04-07 15:58:03,148][INFO ][cluster.service          ] [Anti-Cap] removed {[Nebulo][Wstp7upqT6aKZh_5_kSaOA][needle][inet[/172.24.105.57:9301]],}, reason: zen-disco-node_left([Nebulo][Wstp7upqT6aKZh_5_kSaOA][needle][inet[/172.24.105.57:9301]])
+[2015-04-07 15:58:20,941][INFO ][node                     ] [Nebulo] stopped
+[2015-04-07 15:58:20,941][INFO ][node                     ] [Nebulo] closing ...
+[2015-04-07 15:58:21,050][INFO ][node                     ] [Nebulo] closed
+[2015-04-07 16:56:41,167][INFO ][cluster.metadata         ] [Anti-Cap] [projects_development_20150407165628991] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2015-04-07 16:56:55,533][INFO ][cluster.metadata         ] [Anti-Cap] [projects_development_20150407165628991] update_mapping [project] (dynamic)
+[2015-04-07 16:56:56,960][INFO ][cluster.metadata         ] [Anti-Cap] [projects_development_20150407155238033] deleting index
+[2015-04-07 17:16:59,389][WARN ][monitor.jvm              ] [Anti-Cap] [gc][young][5306][4] duration [15.1s], collections [1]/[15.7s], total [15.1s]/[15.5s], memory [130.9mb]->[30.1mb]/[1011.2mb], all_pools {[young] [102.2mb]->[1.4mb]/[102.5mb]}{[survivor] [11mb]->[5.2mb]/[12.7mb]}{[old] [17.5mb]->[23.4mb]/[896mb]}
+[2015-04-07 17:51:37,282][INFO ][node                     ] [Anti-Cap] stopping ...
+[2015-04-07 17:51:40,184][INFO ][node                     ] [Anti-Cap] stopped
+[2015-04-07 17:51:40,185][INFO ][node                     ] [Anti-Cap] closing ...
+[2015-04-07 17:51:40,533][INFO ][node                     ] [Anti-Cap] closed
+[2015-04-07 17:51:46,581][INFO ][node                     ] [Kilmer] version[1.5.0], pid[6363], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-07 17:51:46,582][INFO ][node                     ] [Kilmer] initializing ...
+[2015-04-07 17:51:46,610][INFO ][plugins                  ] [Kilmer] loaded [], sites []
+[2015-04-07 17:51:57,620][INFO ][node                     ] [Kilmer] initialized
+[2015-04-07 17:51:57,621][INFO ][node                     ] [Kilmer] starting ...
+[2015-04-07 17:51:57,929][INFO ][transport                ] [Kilmer] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.24.105.57:9300]}
+[2015-04-07 17:51:58,041][INFO ][discovery                ] [Kilmer] elasticsearch/iilL54CTR-mVpC2NOikv7Q
+[2015-04-07 17:52:01,825][INFO ][cluster.service          ] [Kilmer] new_master [Kilmer][iilL54CTR-mVpC2NOikv7Q][needle][inet[/172.24.105.57:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-07 17:52:01,857][INFO ][http                     ] [Kilmer] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.24.105.57:9200]}
+[2015-04-07 17:52:01,858][INFO ][node                     ] [Kilmer] started
+[2015-04-07 17:52:03,124][INFO ][gateway                  ] [Kilmer] recovered [3] indices into cluster_state
+[2015-04-07 17:52:48,363][INFO ][node                     ] [Kilmer] stopping ...
+[2015-04-07 17:52:48,415][INFO ][node                     ] [Kilmer] stopped
+[2015-04-07 17:52:48,415][INFO ][node                     ] [Kilmer] closing ...
+[2015-04-07 17:52:48,418][INFO ][node                     ] [Kilmer] closed
+[2015-04-07 17:52:50,434][INFO ][node                     ] [Raymond Sikorsky] version[1.5.0], pid[6493], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-07 17:52:50,434][INFO ][node                     ] [Raymond Sikorsky] initializing ...
+[2015-04-07 17:52:50,439][INFO ][plugins                  ] [Raymond Sikorsky] loaded [], sites []
+[2015-04-07 17:52:53,088][INFO ][node                     ] [Raymond Sikorsky] initialized
+[2015-04-07 17:52:53,089][INFO ][node                     ] [Raymond Sikorsky] starting ...
+[2015-04-07 17:52:53,228][INFO ][transport                ] [Raymond Sikorsky] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.24.105.57:9300]}
+[2015-04-07 17:52:53,273][INFO ][discovery                ] [Raymond Sikorsky] elasticsearch/xKyuLkFqRj-3uPc88wJZXw
+[2015-04-07 17:52:57,052][INFO ][cluster.service          ] [Raymond Sikorsky] new_master [Raymond Sikorsky][xKyuLkFqRj-3uPc88wJZXw][needle][inet[/172.24.105.57:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-07 17:52:57,084][INFO ][http                     ] [Raymond Sikorsky] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.24.105.57:9200]}
+[2015-04-07 17:52:57,085][INFO ][node                     ] [Raymond Sikorsky] started
+[2015-04-07 17:52:57,868][INFO ][gateway                  ] [Raymond Sikorsky] recovered [3] indices into cluster_state
