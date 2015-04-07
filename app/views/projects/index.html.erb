@@ -2,9 +2,7 @@
 
 <h1>Listing Projects</h1>
 
-<input type="text" id="query" name="query" />
-
-<table>
+<table class="table table-bordered table-hover">
   <thead>
     <tr>
       <th>Name</th>
@@ -30,3 +28,10 @@
 
 <%= link_to 'New Project', new_project_path %>
 
+<div class="row">
+  <div class="col-md-6">
+    <div class="books-search">
+      <%= text_field_tag :query, params[:query], class: 'form-control typeahead' %>
+    </div>
+  </div>
+</div>

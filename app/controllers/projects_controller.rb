@@ -62,7 +62,9 @@ class ProjectsController < ApplicationController
   end
 
   def autocomplete
-    render json: Project.search(params[:query], autocomplete: true, limit: 10).map(&:name)    
+    render json: Project.search(params[:query], autocomplete: false, limit: 10).map do |project|
+      { name: project.name, path: '/projects/' + project.id}
+    end    
   end
 
   private
